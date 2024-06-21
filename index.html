@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/script.js"></script>
+    <title>Cards Educativos</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+
+            <i class="fa-solid fa-chalkboard" id="nav_logo">Cards</i>
+
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cards</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre</a>
+                </li>
+            </ul>
+            <img id="senai" src="./img/logo.png" alt="">
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cards</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Aprendizado Dinâmico para o <span>Futuro</span>
+                </h1>
+                <p class="description">
+                    A tecnologia na educação é fundamental para o desenvolvimento de métodos de ensino inovadores e
+                    eficazes.
+                    Ela permite a personalização do aprendizado, atendendo às necessidades individuais dos alunos,
+                    e facilita o acesso a recursos educacionais de qualidade.
+                </p>
+
+            </div>
+            <div id="banner">
+                <img class="imagem1" src="./img/educ.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cards Educativos</h2>
+
+            <div id="disciplinas">
+
+                <div class="disciplina">
+                    <a class="acesso" href="https://profricardocaironi.github.io/card-educativo/">
+                        <img src="./img/matematica.png" class="materias" alt="">
+                        <h3 class="title">
+                            Matemática
+                        </h3>
+                    </a>
+
+                </div>
+
+
+                <div class="disciplina">
+                    <a class="acesso" href="">
+                        <img src="./img/biology.png" class="materias" alt="">
+                        <h3 class="title">
+                            Biologia
+                        </h3>
+                    </a>
+
+                </div>
+
+                <div class="disciplina">
+                    <a class="acesso" href="">
+                        <img src="./img/quimica.png" class="materias" alt="">
+                        <h3 class="title">
+                            Química
+                        </h3>
+                    </a>
+
+                </div>
+
+                <div class="disciplina">
+                    <a class="acesso" href="">
+                        <img src="./img/historia.png" class="materias" alt="">
+                        <h3 class="title">
+                            História
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="disciplina">
+                    <a class="acesso" href="">
+                        <img src="./img/filosofia.png" class="materias" alt="">
+                        <h3 class="title">
+                            Filosofia
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="disciplina">
+                    <a class="acesso" href="">
+                        <img src="./img/port.png" class="materias" alt="">
+                        <h3 class="title">
+                            Língua Português e Artes
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="disciplina">
+                    <a class="acesso" href="">
+                        <img src="./img/english.png" class="materias" alt="">
+                        <h3 class="title">
+                            Inglês
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="disciplina">
+                    <a class="acesso" href="">
+                        <img src="./img/educacao.png" class="materias" alt="">
+                        <h3 class="title">
+                            Educação Fisíca
+                        </h3>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">Sobre o Projeto</h2>
+            <p class="objetivo">
+                Este trabalho foi desenvolvido pelos alunos do curso técnico de Desenvolvimento de Sistemas
+                do SENAI sob a orientação do Professor Ricardo Caironi em parceria com professores de
+                diversas áreas do conhecimento do SESI.
+                Com o intuito de trazer uma aplicabilidade ao conteúdo aprendido em sala de aula,
+                a elaboração de uma página web com conteúdo educativo em conjunto com outras disciplinas
+                busca enriquecer ambas as areas e ainda simula situações encontradas no mercado de trabalho,
+                proporcionando uma experiência prática e enriquecedora.
+                Dessa forma a integração entre SENAI e SESI traz um significado para a teoria e novas
+                soluções para outras áreas do conhecimento.
+                Os cards desenvolvidos para cada disciplina acima são o resultado do trabalho de
+                32 alunos divididos em 8 grupos onde cada grupo tralhalhou com um tema definido pelo docente
+                responsável pela discipla.
+
+            </p>
+        </section>
+
+
+
+        <!-- <button class="btn-cards">
+            <a href="">Matemática</a>
+        </button> -->
+    </main>
+
+    <footer>
+        <img src="./img/wave.svg" alt="">
+
+        <div id="footer_item">
+            <span id="copyright">
+                2024 Ricardo Caironi
+            </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
