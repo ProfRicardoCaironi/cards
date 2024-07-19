@@ -30,7 +30,7 @@
 
 .disciplina:hover {
     background-color: #f8f8f8;
-    transform: scale(1.02);
+    transform: scale(1.03);
     transition: transform 0.5s;
     cursor: pointer;
 }
