@@ -33,6 +33,12 @@ header {
     color: #026c64;
     font-weight: 600;
     font-size: 22px;
+    transition: all 0.3s;
+}
+
+.nav-item a:hover {
+    transform: scale(1.02);
+    transition: all 0.3s;
 }
 
 .nav-item.active a {
