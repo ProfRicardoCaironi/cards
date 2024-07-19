@@ -27,6 +27,12 @@
     box-shadow: 0px 0px 12px 4px rgba(0 , 0, 0, 0.1);
 }
 
+.disciplina:hover {
+    background-color: #f8f8f8;
+    transform: scale(1.02);
+    transition: transform 0.5s;
+}
+
 .title {
     text-align: center;
     color: #013952;
